@@ -227,7 +227,7 @@ jQuery.fn.tag = function(options) {
 				auto_width(this);
 				var key = event.keyCode || event.which;
 				//eger basilan tus seperator ise, veya addonenter option aciksa ve entere basilmissa
-				if (options.seperator == String.fromCharCode(key) || options.seperator == key || (options.addOnEnter && key == 13)) {
+				if (options.seperator == String.fromCharCode(key) || options.seperator == key || (options.addOnEnter && key == 32)) {
 					//tag ekle
 					add_tag(this);
 					//false

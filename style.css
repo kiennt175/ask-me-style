@@ -1168,6 +1168,7 @@ div[class*="slider_shadow"]:before, div[class^="header_shadow"] {
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .load-questions i {
 	margin-right: 10px;
@@ -2386,7 +2387,6 @@ span.date i,span.comment i {
 /* footer */
 #footer {
 	background-color: #2f3239;
-	margin-top: 70px;
 	padding: 50px 0 30px;
 }
 #footer .widget {
@@ -2572,7 +2572,7 @@ span.date i,span.comment i {
 }
 /* breadcrumbs */
 .breadcrumbs {
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 	line-height: 50px;
 }
 .breadcrumbs .container {

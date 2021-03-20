@@ -732,15 +732,6 @@ jQuery(document).ready(function($) {
 	
 	/* single question */
 	
-	jQuery(".share-inside").click(function () {
-		if (jQuery(".share-inside-warp").hasClass("share-inside-show")) {
-			jQuery(".share-inside-warp").slideUp("500");
-			jQuery(".share-inside-warp").removeClass("share-inside-show");
-		}else {
-			jQuery(".share-inside-warp").slideDown("500");
-			jQuery(".share-inside-warp").addClass("share-inside-show");
-		}
-	});
 	
 	/* single question poll */
 	
